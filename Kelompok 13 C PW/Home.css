@@ -1,0 +1,168 @@
+* {
+    padding:0;
+    margin:0;
+  }
+
+h1{
+    color: white;
+}
+
+h2{
+    color: white;
+}
+
+head {
+    font-family:Verdana, Geneva, sans-serif;
+    font-size:18px; 
+  }
+
+#header{
+    background-color: #F0E68C;
+    width: 100%;
+    height: 200px;
+}
+a{
+    margin-left:20px;
+    
+}
+a:link{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:active{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.kepala{
+    background:#003333;opacity:0.9;
+    font-family: corbel;
+      font-size: 30px;
+      height: 100px;
+      color: white;
+      text-align:left;
+      width: 100%;
+  }
+
+.ul{
+    width: 90%;
+    height: 30px;
+    background-color: #003333;
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.ul p{
+    color: white;
+}
+
+.ul p i{
+    text-align: center;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+#footer{
+    background: white;
+}
+
+.kanan{
+    background-color: #003333;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 400px;
+    height: 300px;
+}
+
+.kanan ul{
+    background-color: #F0E68C;
+    margin-top: 10px;
+    width: 400px;
+    height: 70px;
+}
+
+.kanan ul li{
+    background-color: #003333;
+    width: 400px;
+    height: 50px;
+}
+
+.kanan2{
+    background-color: #003333;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 400px;
+    height: 150px;
+}
+
+.kanan2 ul{
+    background-color: #F0E68C;
+    margin-top: 0;
+    width: 400px;
+    height: 50px;
+}
+
+.kanan2 ul li{
+    background-color: #003333;
+    width: 400px;
+    height: 30px;
+}
+
+.kiri{
+    background-color: #003333;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 440px;
+    height: 150px;
+}
+
+.kiri ul{
+    background-color: #F0E68C;
+    margin-top: 0;
+    width: 440px;
+    height: 50px;
+}
+
+.kiri ul li{
+    background-color: #003333;
+    width: 440px;
+    height: 30px;
+}
+
+.kiri2{
+    background-color: #003333;
+    float: left;
+    margin-left: 460px;
+    margin-top: 0;
+    width: 440px;
+    height: 150px;
+}
+
+.kiri2 ul{
+    background-color: #F0E68C;
+    margin-top: 0;
+    width: 440px;
+    height: 50px;
+}
+
+.kiri2 ul li{
+    background-color: #003333;
+    width: 440px;
+    height: 30px;
+}

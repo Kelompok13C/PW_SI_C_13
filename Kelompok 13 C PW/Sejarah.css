@@ -1,0 +1,190 @@
+* {
+  padding:0;
+  margin:0;
+}
+body {
+  font-family:Verdana, Geneva, sans-serif;
+font-size:18px;
+background-color: #c5dada;
+      height: 947px;
+}
+
+
+body .kepala{
+  width: 100%;
+  background:#003333;opacity:0.9; 
+  font-family: corbel;
+    font-size: 30px;
+    height: 50px;
+    color: white;
+    text-align:left;
+    margin-left: 0px;
+}
+a:link{
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited{
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover{
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:active{
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+
+/*Style for the first level menu bar*/
+#menu{
+  
+  top:50%;
+  width:260px;
+  height:3em;
+  margin:0;
+  margin-left: 0px;
+  padding:0 10px;
+  background:#003333;
+  color:#eee;
+  box-shadow:0 -1px rgba(0,0,0,.5) inset;
+}
+
+#menu > li{
+  float:left;
+  list-style-type:none;
+  
+}
+
+
+label{
+  position: initial;
+  display:block;
+  padding:20px 25px;
+  line-height:3em;
+  transition:background 0.3s;
+  cursor:pointer;
+  font-size: 13pt;
+}
+
+
+
+label:hover,
+input:checked ~ label{background-color:rgba(0, 0, 0, 0.1);
+border-radius:50px;}
+
+input:checked ~ label:after{
+  border-top:0 solid rgba(255,255,255,.5);
+  border-bottom:4px solid rgba(255,255,255,.5);
+  transition:border-top .1s, border-bottom .1s .1s;
+}
+
+
+input{display:none}
+
+input:checked ~ ul.submenu{
+  max-height:100%;
+  transition:max-height 0.5s ease-in;
+}
+
+
+ul.submenu{
+  max-height:0;
+  margin-left: -10px;
+  padding:0;
+  overflow:hidden;
+  list-style-type:none;
+  background:#003333;
+  box-shadow:0 0 1px rgba(0,0,0,.3);
+  transition:max-height 0.5s ease-out;
+  position:absolute;
+  width:280px;
+}
+
+ul.submenu li a{
+padding:15px 20px;
+text-decoration:none;
+display:block;
+color:#FFF;
+font-size: 13pt;
+
+}
+
+ul.submenu li a i{
+width:50px;
+height:35px;
+text-align:center;
+padding-top:10px;
+}
+
+ul.submenu li a:hover{
+  background-color:#1F996C ; opacity: 24%;
+  
+  
+}
+
+
+.judulkonten{
+  margin-left: 370px;
+  margin-top: -45px;
+}
+ .judulkonten ul  a h2{
+    font-size: 32px;
+    font-family: Corbel;
+    color: black;
+    font-style: normal;
+    font-weight: 5;
+ }
+
+.katalog{
+   padding: 30px 370px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 5;
+
+}
+
+.katalog ul  a h2 i{
+   font-size: 18px;
+   background: white;
+   opacity: 0.72;
+   width: 750px;
+   height: 27px;
+   display: inline-block;
+   font-weight: 5;
+}
+
+.judulpage{
+   
+   font-family: Comic Sans MS;
+   font-weight: 5;
+   margin-top: -15px;
+
+}
+.judulpage  a {
+   font-size: 20px;
+   margin: 47%;
+   
+
+}
+
+.content{
+    font-family: Comic Sans MS;
+    font-weight: 5;
+    margin-left: 370px;
+    margin-top: 20px;
+}
+
+.content a h2{
+    font-size: 20px;
+    
+    background: white;
+   opacity: 0.72;
+   width: 750px;
+}
